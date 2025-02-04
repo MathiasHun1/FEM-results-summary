@@ -1,0 +1,25 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 16px;
+  border-radius: 12px;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.scoreWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.scoreText {
+  opacity: 50%;
+}
+
+.scoreValue {
+  opacity: 100%;
+}

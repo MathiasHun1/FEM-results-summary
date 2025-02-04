@@ -1,0 +1,23 @@
+.wrapper {
+  padding: 24px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.text {
+  font-size: calc(18rem / 16);
+  color: var(--clr-NEUTRAL-dark-grey-blue);
+  font-weight: var(--fw-bold);
+}
+
+@media (min-width: 700px) {
+  .wrapper {
+    flex: 1;
+    padding: 40px;
+  }
+
+  .text {
+    font-size: calc(24re / 16);
+  }
+}

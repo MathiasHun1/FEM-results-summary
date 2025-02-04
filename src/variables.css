@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --clr-PRIMARY-light-red: hsl(0 100 67);
+  --clr-PRIMARY-orange: hsl(39 100 56);
+  --clr-PRIMARY-green: hsl(166 100 37);
+  --clr-PRIMARY-blue: hsl(234 85 45);
+
+  --clr-GRADIENT-slate-blue: hsl(252 100 67);
+  --clr-GRADIENT-royal-blue: hsl(241 81 54);
+  --clr-GRADIENT-violet-blue: hsla(256 72 46 / 1);
+  --clr-GRADIENT-persian-blue: hsla(241 72 46 / 0);
+
+  --clr-NEUTRAL-white: hsl(0 0 100);
+  --clr-NEUTRAL-pale-blue: hsl(221 100 96);
+  --clr-NEUTRAL-light-levander: hsl(241 100 89);
+  --clr-NEUTRAL-dark-grey-blue: hsl(224 30 27);
+
+  --ff-base: 'Hanken Grotesk', sans-serif;
+
+  --fw-normal: 500;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+
+  --spacing-50: 8px;
+  --spacing-100: 16px;
+  --spacing-150: 24px;
+  --spacing-200: 32px;
+}

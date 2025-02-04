@@ -1,0 +1,12 @@
+.list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 700px) {
+  .list {
+    font-size: calc(18rem / 16);
+  }
+}

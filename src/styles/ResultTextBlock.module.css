@@ -1,0 +1,22 @@
+.wrapper {
+}
+
+.title {
+  font-size: calc(24rem / 16);
+  color: white;
+  font-weight: var(--fw-bold);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.text {
+  color: var(--clr-NEUTRAL-light-levander);
+  max-width: 270px;
+}
+
+@media (min-width: 700px) {
+  .title {
+    font-size: calc(24rem / 16);
+    margin-bottom: 16px;
+  }
+}
