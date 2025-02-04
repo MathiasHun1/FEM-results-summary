@@ -1,7 +1,7 @@
 import styles from '../styles/ListItem.module.css';
 
 const ListItem = ({ category, score, icon }) => {
-  const iconPath = icon.replace('./assets/', '../../public/');
+  const iconPath = icon.replace('./assets/', '/');
 
   const createDynamicStyle = (category) => {
     if (category === 'Reaction') {
