@@ -7,3 +7,5 @@
 # apply dynamic styles in ListItem ?
 
 # inline styling in Listitem ?
+
+# why fetching not works with axios, but works with fetch ?
