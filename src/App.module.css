@@ -13,11 +13,6 @@
   font-weight: var(--fw-normal);
 }
 
-.title {
-  font-size: calc(18rem / 16);
-  color: var(--clr-NEUTRAL-light-levander);
-}
-
 @media (min-width: 700px) {
   #root {
     min-height: 100%;
@@ -33,9 +28,5 @@
     filter: drop-shadow(2px 5px 5px hsla(241 81 35 / 0.25));
     border-radius: 32px;
     overflow: hidden;
-  }
-
-  .title {
-    font-size: calc(24rem / 16);
   }
 }

@@ -1,4 +1,4 @@
-import styles from '../styles/ListItem.module.css';
+import styles from './ListItem.module.css';
 
 const ListItem = ({ category, score, icon }) => {
   const iconPath = icon.replace('./assets/', '/');
@@ -51,12 +51,6 @@ const ListItem = ({ category, score, icon }) => {
           100
         </p>
       </div>
-      {/* <p className={styles.scoreText} style={{ color: 'hsl(223, 30%, 27%)' }}>
-        <span className={styles.scoreValue} style={{ color: 'black' }}>
-          {score}
-        </span>
-        / 100
-      </p> */}
     </li>
   );
 };

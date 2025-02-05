@@ -11,10 +11,19 @@
   border-bottom-right-radius: 32px;
 }
 
+.title {
+  font-size: calc(18rem / 16);
+  color: var(--clr-NEUTRAL-light-levander);
+}
+
 @media (min-width: 700px) {
   .wrapper {
     flex: 1;
     border-radius: 32px;
     padding-top: 40px;
+  }
+
+  .title {
+    font-size: calc(24rem / 16);
   }
 }

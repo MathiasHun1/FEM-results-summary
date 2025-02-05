@@ -1,17 +1,14 @@
-import styles from './styles/App.module.css';
-
+import styles from './App.module.css';
 import services from '../services/dataService';
 import utils from './utils';
-
-import ResultContainer from './components/ResultContainer';
-import ResultCircle from './components/ResultCircle';
-import ResultTextBlock from './components/ResultTextBlock';
-import SummaryContainer from './components/SummaryContainer';
-import List from './components/List';
-import Button from './components/Button';
 import { useEffect, useState } from 'react';
 
+import Results from './components/Results/Results';
+import Summary from './components/Summary/Summary';
+
 function App() {
+  const { app } = styles;
+
   const [data, setData] = useState(null);
   const [overallResult, setOverallResult] = useState(null);
 
@@ -27,17 +24,9 @@ function App() {
   }, []);
 
   return (
-    <div className={styles.app}>
-      <ResultContainer>
-        <h1 className={styles.title}>Your Result</h1>
-        <ResultCircle overallResult={overallResult} />
-        <ResultTextBlock resultTitle={'Great'} overall={65} />
-      </ResultContainer>
-
-      <SummaryContainer>
-        <List data={data} />
-        <Button>Continue</Button>
-      </SummaryContainer>
+    <div className={app}>
+      <Results overallResult={overallResult} />
+      <Summary data={data} />
     </div>
   );
 }
